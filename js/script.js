@@ -1,3 +1,6 @@
 const button = document.querySelector('button')
+const heading = document.getElementById('heading')
 
-button.addEventListener('click', () => alert('Clicked'))
+button.addEventListener('click', () => {
+  heading.textContent = 'Hello Git'
+})
